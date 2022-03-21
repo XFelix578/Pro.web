@@ -1,0 +1,71 @@
+<!doctype html> 
+<html>
+    <head>
+        <title> pagina inicial </title>
+    </head>
+    <body style="background-color: azure;">
+        <h1> Links </h1>
+        <header></header>
+        <div>
+            <nav> 
+                <ul>
+                    <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiW6oTW4ND2AhVuFrkGHYUCAxQQFnoECAMQAQ&url=https%3A%2F%2Fwww.omel.com.br%2Fes%2F&usg=AOvVaw22VUWkdTFv_af_gTEhJ0qh"target="_blank"> Link 0 </a></li>
+                    <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi_8sz34ND2AhX7IrkGHRtjApQQFnoECCsQAQ&url=https%3A%2F%2Ftranslate.google.com%2F%3Fhl%3Des&usg=AOvVaw3bcGdFSirUqu-hkSuywhsC"target="_blank"> Link 1 </a></li>
+                    <li><a href="https://www.youtube.com/?hl=es-419&gl=CL"target="_blank"> Link 2 </a></li>
+                </ul>
+            </nav>        
+        <h1>pagina web</h1>
+        <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen.jpg" style=width:100px alt="descripcion"/>
+        <br> 
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+        <br>  
+        <ol> 
+            <li>gato </li>
+            <li>perro </li>
+            <li>jirafa </li>
+        </ol>
+        <table border="2" style="width: 40%;">
+            <caption>datos de personas</caption>
+            <br>
+                <tr> 
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Nacionalidad</th>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Nacionalidad</th>
+                    </tr>
+                </tfoot>
+                <tr>
+                    <td colspan="4" style="text-align: center;"><iframe width="330" height="186" src="https://www.youtube.com/embed/UhtTDf5Qb2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                </tr>
+                <tr>
+                    <td>Julieta </td>
+                    <td>26</td>
+                    <td>Peruana</td>
+                </tr>
+        </table>
+        <button onclick="">
+        <p>id="demo"</p>
+    </body>
+    <script>
+
+        var x = document.getElementById("demo");
+        function getLocation() {
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+          } else {
+            x.innerHTML = "Geolocation is not supported by this browser.";
+          }
+        }
+        
+        function showPosition(position) {
+          x.innerHTML = "Latitude: " + position.coords.latitude +
+          "<br>Longitude: " + position.coords.longitude;
+        }
+        </script> 
+
+</html>
